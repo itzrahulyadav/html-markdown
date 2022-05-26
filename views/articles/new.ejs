@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create article</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <div>
+        <h1 class="mb-4 text-3xl font-bold">New Article</h1>
+        <form action = '/articles' method = 'post'>
+            <%-include('_form_fields') %>
+        </form>
+    </div>
+</body>
+</html>
